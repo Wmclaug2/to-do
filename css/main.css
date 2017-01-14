@@ -1,0 +1,76 @@
+body {
+  background-color: #414770;
+  font-family: 'Nunito Sans', sans-serif;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+header {
+  margin: 10px auto;
+}
+header h1 {
+  color: #EEE;
+  font-size: 40px;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px;
+  width: 25%;
+}
+.inputs .new-to-do-item {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 30px;
+  padding: 10px;
+}
+.inputs .btn {
+  background-color: #8DA7BE;
+  border-color: #8DA7BE;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.to-do-container {
+  margin: 10px auto;
+  width: 60%;
+}
+.to-do-container .to-do-item {
+  border-bottom: 1px solid black;
+  border-radius: 15px;
+  display: flex;
+  margin: 10px auto;
+  width: 60%;
+}
+.to-do-container .to-do-item .remove-item {
+  background-color: #8DA7BE;
+  border: none;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  color: none;
+  margin-right: 10px;
+}
+.to-do-container .to-do-item .remove-item i {
+  font-size: 30px;
+}
+.to-do-container .to-do-item .remove-item i:hover {
+  color: #71B48D;
+}
+.to-do-container .to-do-item h2 {
+  color: #111;
+}
+
+.about {
+  bottom: 10px;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%);
+}
+.about p {
+  text-align: center;
+}
